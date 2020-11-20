@@ -1,8 +1,3 @@
-<!-- Uses <p>, <header>, <footer>, <main>, <article>. 
-    At least one <img> tag (hopefully more). 
-    When placing images in your page, put them in a new subfolder called images directory.
-    Uses at least one HTML entity. (Copyright symbol, etc)-->
-
 <!DOCTYPE html>
 
 <html>
@@ -11,48 +6,71 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <header class="top-bottom">
+        <header class="red">
             <h1 id="main-title">BIRDS. AREN'T. REAL.</h1>
-            <h3>FAQ for a very real conspiracy theory that is definitely not a joke <a href="http://birdsarentreal.com">to sell merchandise</a></h3>
+            <h3>FAQ for a conspiracy that is very real and definitely not a joke.</h3>
         </header>
         <main>
-            <article class="qa-pair">
-                <img src='./images/placeholder.jpg'>
-                <p class="question">Q: I've never heard of this. What do you mean by "birds aren't real"?</p>
-                <p class="answer">A: It's a very simple concept. Sixty years ago the government killed all the birds and replaced them with surveillance drones. The rest is self-explanatory.</p>
-            </article>            
-            <article class="qa-pair">
-                <img src="./images/billboard.jpg" />
-                <p class="question">Q: So what is the purpose of these robot birds? What do they actually do?</p>
-                <p class="answer">A: Everything you're paranoid about your laptop's built-in webcam doing. The FBI also races them when they're bored.</p>
+            <article>
+                <section class="qa-pair">
+                    <img src='./images/no-birds.jpg'>
+                    <p class="subhead">Q: I've never heard of this. What do you mean by "birds aren't real"?</p>
+                    <p>A: It's a very simple concept. Sixty years ago the government killed all the birds and replaced them with robots. The rest is self-explanatory.</p>
+                </section>            
+                <section class="qa-pair">
+                    <img src="./images/billboard.jpg" />
+                    <p class="subhead">Q: I feel like that's not as self-explanatory as you think it is. What is the purpose of these robot birds? What do they actually do?</p>
+                    <p>A: They are surveillance drones, and do everything you're paranoid about your laptop's built-in webcam doing. Your built-in laptop webcam was never listening to your conversations. It was the birds this whole time. The FBI also races them when they're bored.</p>
+                </section>
+                <section class="qa-pair">
+                    <img src="./images/kennedy.jpg" />
+                    <p class="subhead">Q: I have pet bird that's very real. How do you explain that?</p>
+                    <p>A: If a "bird" is with you while you are viewing this page, you must leave your home immediately and not come back.</p>
+                </section>
+                <section class="qa-pair">
+                    <img src='./images/birdwatching.jpg' />
+                    <p class="subhead">Q: But how would this be possible? Like how have we still been eating chicken and turkey for the last sixty years?</p>
+                    <p>A: Some say non-flying birds like chicken and turkeys are still real. These people are insanse and should not be trusted. All bird meat in the US is synthetic.</p>
+                </section>
+                <section class="qa-pair">
+                    <img src="./images/robot-anatomy.jpg" />
+                    <p class="subhead">Q: Maybe this made sense in the 60s, but why still do it now? Wouldn't it be easier to use computers and phones? Since we already let those into our homes anyway?</p>
+                    <p>A: No. next question.</p>
+                </section>
+                <section class="qa-pair">
+                    <img src='./images/birdcamera.jpg'>
+                    <p class="subhead">Q: Wouldn't there be an easier way to spy on people?</p>
+                    <p>A: Perhaps, but it is well-known that government officials also just really hate birds.</p>
+                </section>
+                <section class="qa-pair">
+                    <img src="./images/shirt.jpg" />
+                    <p class="subhead">Q: This sounds like it might not be serious. Is this source credible?</p>
+                    <p>A: Yes, the original source is very credible. This conspiracy was uncovered and first brought to light by a 20-year-old who probably had very, very good grades. He only wants to share the truth with the world, and has nothing to gain by promoting this theory. Anyway, you can give him money by purchasing his merchandise <a href="http://birdsarentreal.com">here</a>. </p>
+                </section>
             </article>
-            <article class="qa-pair">
-                <img src="./images/kennedy.jpg" />
-                <p class="question">Q: I have pet bird that's very real. How do you explain that?</p>
-                <p class="answer">A: If a "bird" is with you while you are viewing this page, you must leave your home immediately and not come back.</p>
-           
-            </article>
-            <article class="qa-pair">
-                <img src='./images/shirt.jpg'>
-                <p class="question">Q: Looking at the official Birds Aren't Real website, it seems like a joke created to sell t-shirts. Is it?</p>
-                <p class="answer">A: How very dare you. This is very serious.</p>
-            </article>
-            <article class="qa-pair">
-                <img src='./images/birdwatching.jpg' />
-                <p class="question">Q: But how would this be possible? Like how have we still been eating chicken and turkey for the last sixty years?</p>
-                <p class="answer">A: Some say non-flying birds like chicken and turkeys are still real. These people are insanse. All bird meat in the US is synthetic.</p>
-            </article>
-            <article class="qa-pair">
-                <img src='./images/birdcamera.jpg'>
-                <p class="question">Q: Wouldn't there be an easier way to spy on people?</p>
-                <p class="answer">A: It is well-known that government officials also just really hate birds.</p>
-            </article>
-            <article class="qa-pair">
-                <img src="./images/robot-anatomy.jpg" />
-                <p class="question">Q: Maybe this made sense in the 60s, but why still do it now? Wouldn't it be easier to use computers?</p>
-                <p class="answer">A: No. next question.</p>
-            </article>
+            <section id="links">
+                <img src="./images/lies.jpg" />
+                <p class="subhead">Links:</p>
+                <ul>
+                    <li>
+                        <a href="https://www.thedailybeast.com/birds-arent-real-is-the-conspiracy-theory-mocking-qanon">Lies from the Daily Beast</a>
+                    </li>
+                    <li>
+                        <a href="https://www.vice.com/en/article/xg8p4n/birds-arent-real-they-are-government-spy-drones">Lies from Vice</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/birdsarentreal">Truths on Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.audubon.org/news/are-birds-actually-government-issued-drones-so-says-new-conspiracy-theory-making">Lies from Audobon</a>
+                    </li>
+                </ul>
+            </section>
         </main>
-        <footer class="top-bottom">&copy;2020</footer>
+        <footer class="red">
+            &copy;2020
+            <br />
+            <span id="disclaimer">Disclaimer: Birds are real</span>
+        </footer>
     </body>
 </html>
