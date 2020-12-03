@@ -11,6 +11,7 @@ body {
     margin-bottom: 25px;
     border-radius: 10px;
     overflow: auto;
+    border: 1px solid white;
 }
 
 img {
@@ -27,6 +28,7 @@ img {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
+    border: 1px solid white;
 }
 
 #main-title {
